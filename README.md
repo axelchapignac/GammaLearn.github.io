@@ -2,7 +2,7 @@
 
 ## 🌐 Website:
 
-👉 https://chap-pi.github.io/GammaLearn.github.io/
+👉 https://axelchapignac.github.io/GammaLearn.github.io/
 
 **GammaLearn** est un site vitrine dédié aux mathématiques, conçu pour faciliter la prise de contact entre étudiants et professeurs proposant des cours de mathématiques pour les classes préparatoires et l’enseignement supérieur.
 
