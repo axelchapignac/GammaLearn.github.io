@@ -119,12 +119,20 @@ body.home{
 }
 
 .hero-logo{
-  animation: float 6s ease-in-out infinite;
-}
+  height: 88px;
+  margin-bottom: 24px;
+  opacity: 0.95;
 
-@keyframes float{
-  0%,100%{ transform: translateY(0); }
-  50%{ transform: translateY(-6px); }
+  transform: translateX(-6px);
+
+  background: radial-gradient(
+    circle,
+    rgba(59,130,246,0.18) 0%,
+    rgba(59,130,246,0.10) 35%,
+    rgba(59,130,246,0.00) 70%
+  );
+  padding: 14px;
+  border-radius: 50%;
 }
 
 .hero-manifesto h1{
