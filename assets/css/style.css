@@ -90,7 +90,7 @@ body{
 
 /* LOGO */
 .hero-logo{
-  height: 130px;              
+  height: 160px;              
   margin-bottom: 36px;
   opacity: 0.95;
 }
@@ -98,7 +98,7 @@ body{
 /* TITRE */
 .hero-manifesto h1{
   font-family: "Playfair Display", serif;
-  font-size: clamp(64px, 10vw, 110px);
+  font-size: clamp(58px, 9vw, 96px);
   margin: 0 0 18px;
   letter-spacing: 0.06em;
   font-weight: 600;
