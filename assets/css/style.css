@@ -119,20 +119,9 @@ body.home{
 }
 
 .hero-logo{
-  height: 88px;
+  height: 70px;
   margin-bottom: 24px;
   opacity: 0.95;
-
-  transform: translateX(-6px);
-
-  background: radial-gradient(
-    circle,
-    rgba(59,130,246,0.18) 0%,
-    rgba(59,130,246,0.10) 35%,
-    rgba(59,130,246,0.00) 70%
-  );
-  padding: 14px;
-  border-radius: 50%;
 }
 
 .hero-manifesto h1{
