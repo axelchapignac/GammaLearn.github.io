@@ -88,10 +88,10 @@ body{
   margin-top:40px;
 }
 
-/* LOGO — ajusté */
+/* LOGO */
 .hero-logo{
-  height: 96px;              /* plus visible */
-  margin-bottom: 28px;
+  height: 130px;              
+  margin-bottom: 36px;
   opacity: 0.95;
 }
 
