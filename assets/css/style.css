@@ -105,16 +105,12 @@ body.home{
   background: transparent;
 }
 
-.hero-manifesto{
-  position: relative;
-  min-height: 100vh;
-  background:
-    radial-gradient(circle at 50% 30%, rgba(59,130,246,0.15), transparent 60%),
-    var(--bg-main);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.hero-manifesto h1{
+  font-family: "Playfair Display", serif;
+  font-size: clamp(64px, 10vw, 112px);
+  margin: 0 0 16px;
+  letter-spacing: 0.06em; /* beaucoup plus lisible */
+  font-weight: 600;
 }
 
 .hero-content {
@@ -123,9 +119,12 @@ body.home{
 }
 
 .hero-logo{
-  height: 72px;
-  margin-bottom: 26px;
-  filter: drop-shadow(0 0 12px rgba(59,130,246,0.35));
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%,100%{ transform: translateY(0); }
+  50%{ transform: translateY(-6px); }
 }
 
 .hero-manifesto h1{
@@ -135,18 +134,53 @@ body.home{
   font-weight: 600;
 }
 
+.hero-actions{
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .slogan{
-  font-size: 18px;
-  color: var(--text-muted);
-  margin-bottom: 36px;
-  line-height: 1.6;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-weight: 500;
+  transition: all 0.25s ease;
 }
 
 .btn.primary{
-  padding: 16px 32px;
-  font-size: 15px;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  padding: 16px 34px;
   border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(59,130,246,0.35);
+}
+.btn.primary:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 14px 40px rgba(59,130,246,0.45);
+}
+
+.btn.secondary{
+  background: transparent;
+  color: var(--text-main);
+  padding: 16px 34px;
+  border-radius: 18px;
+  border: 1px solid var(--border-soft);
+}
+
+.btn.secondary:hover{
+  background: var(--bg-soft);
+  border-color: var(--accent);
 }
 
 /* =========================
