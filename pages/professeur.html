@@ -3,34 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Professeur – GammaLearn</title>
+
+  <title>Nos professeurs — GammaLearn</title>
+
   <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/professeurs.css">
 </head>
+
 <body>
 
-<header>
+<header class="top-nav">
   <div class="container nav">
-    <a class="brand" href="../index.html">
-      <span>GAMMALEARN</span>
-    </a>
     <nav class="menu">
       <a href="../index.html">Accueil</a>
-      <a href="professeur.html">Professeur</a>
+      <a href="professeur.html">Professeurs</a>
       <a href="contact.html">Contact</a>
       <a href="calendrier.html">Calendrier</a>
     </nav>
   </div>
 </header>
 
-<main class="section">
-  <div class="container">
-    <h1>Le professeur</h1>
-    <p>Page en construction : parcours, méthode, niveaux, etc.</p>
-  </div>
+<main class="prof-page">
+
+  <!-- TITRE -->
+  <section class="prof-header">
+    <h1>Nos professeurs</h1>
+    <p>
+      Des profils passionnés, exigeants et engagés
+      pour votre réussite.
+    </p>
+  </section>
+
+  <!-- CARTES -->
+  <section class="prof-grid container">
+
+    <!-- PROF 1 -->
+    <div class="prof-card">
+
+      <img src="../assets/img/prof1.jpg" alt="Professeur">
+
+      <h3>Axel Chapignac</h3>
+
+      <span>Finance quantitative & Mathématiques</span>
+
+      <p>
+        Étudiant en Financial Engineering (EPFL/HEC & ISFA).
+        Spécialisé en Processus Stochastique et théorie des options.
+        Plus de 30 étudiants formés (MPSI/PSCI/ECG/LICENSE...)
+      </p>
+
+      <a href="contact.html" class="btn primary">
+        Contacter
+      </a>
+
+    </div>
+
+    <!-- PROF 2 (exemple) -->
+    <div class="prof-card">
+
+      <img src="../assets/img/prof2.jpg" alt="Professeur">
+
+      <h3>Luca Benkoussa</h3>
+
+      <span>Actuariat & Statistiques</span>
+
+      <p>
+        Étudiant en Actuariat.
+        Expertise en modélisation des risques
+        et assurance.
+      </p>
+
+      <a href="contact.html" class="btn primary">
+        Contacter
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- METHODE -->
+  <section class="prof-method">
+
+    <h2>Notre approche</h2>
+
+    <p>
+      Nous privilégions la compréhension profonde et
+      la rigueur mathématique.
+    </p>
+
+  </section>
+
 </main>
 
 <footer>
-  <div class="container">© GammaLearn</div>
+  <div class="container">
+    © GammaLearn — Tous droits réservés
+  </div>
 </footer>
 
 </body>
