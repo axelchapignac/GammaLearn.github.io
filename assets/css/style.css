@@ -191,15 +191,17 @@ footer{
     padding: 0 20px;
   }
 
-  /* LOGO */
-  .hero-logo{
-    max-width: 120px;
-    margin-bottom: 24px;
-  }
+  /* LOGO MOBILE */
+   .hero-logo{
+     max-width: 90px;
+     width: 100%;
+     height: auto;
+     margin-bottom: 20px;
+   }
 
   /* TITRE */
   .hero-manifesto h1{
-    font-size: 42px;
+    font-size: 38px;
     letter-spacing: 0.04em;
   }
 
