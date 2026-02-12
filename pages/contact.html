@@ -26,84 +26,124 @@
 
 <main class="contact-page">
 
-  <!-- TITRE -->
+  <!-- HEADER -->
   <section class="contact-header">
     <h1>Prendre contact</h1>
-    <p>Nous vous répondons sous 24h</p>
+    <p>
+      Une question ? Un projet ?  
+      Nous vous répondons sous 24h.
+    </p>
   </section>
 
-  <!-- FORMULAIRE -->
-  <section class="contact-container container">
+  <!-- ZONE PRINCIPALE -->
+  <section class="contact-wrapper container">
 
-    <form
-      action="https://formspree.io/f/mkovjojz"
-      method="POST"
-      class="contact-form"
-    >
+    <!-- FORMULAIRE -->
+    <div class="contact-form-box">
 
-      <div class="form-group">
-        <label for="nom">Nom</label>
-        <input
-          type="text"
-          id="nom"
-          name="nom"
-          placeholder="Votre nom"
-          required
-        >
-      </div>
+      <h2>Envoyer un message</h2>
 
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="exemple@email.com"
-          required
-        >
-      </div>
-
-      <div class="form-group">
-        <label for="niveau">Niveau de l'élève</label>
-        <select id="niveau" name="niveau" required>
-          <option value="">Choisir</option>
-          <option>Collège</option>
-          <option>Lycée</option>
-          <option>Prépa</option>
-          <option>Université</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea
-          id="message"
-          name="message"
-          rows="5"
-          placeholder="Expliquez votre besoin (matière, niveau, objectifs...)"
-          required
-        ></textarea>
-      </div>
-
-      <!-- CONFIG FORMPSREE -->
-      <input
-        type="hidden"
-        name="_subject"
-        value="Nouvelle demande — GammaLearn"
+      <form
+        action="https://formspree.io/f/mkovjojz"
+        method="POST"
+        class="contact-form"
       >
 
-      <input
-        type="hidden"
-        name="_template"
-        value="table"
-      >
+        <div class="form-group">
+          <label for="nom">Nom</label>
+          <input
+            type="text"
+            id="nom"
+            name="nom"
+            placeholder="Votre nom"
+            required
+          >
+        </div>
 
-      <!-- BOUTON -->
-      <button type="submit" class="btn primary">
-        Envoyer la demande
-      </button>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="exemple@email.com"
+            required
+          >
+        </div>
 
-    </form>
+        <div class="form-group">
+          <label for="niveau">Niveau</label>
+          <select id="niveau" name="niveau" required>
+            <option value="">Choisir</option>
+            <option>Collège</option>
+            <option>Lycée</option>
+            <option>Prépa</option>
+            <option>Université</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Expliquez votre besoin (matière, niveau, objectifs...)"
+            required
+          ></textarea>
+        </div>
+
+        <!-- CONFIG FORMPSREE -->
+        <input
+          type="hidden"
+          name="_subject"
+          value="Nouvelle demande — GammaLearn"
+        >
+
+        <input
+          type="hidden"
+          name="_template"
+          value="table"
+        >
+
+        <button type="submit" class="btn primary">
+          Envoyer la demande
+        </button>
+
+      </form>
+
+    </div>
+
+    <!-- INFOS CONTACT -->
+    <div class="contact-info-box">
+
+      <h2>Nous contacter directement</h2>
+
+      <p>
+        Vous préférez échanger rapidement ?
+        Appelez-nous ou écrivez-nous directement.
+      </p>
+
+      <div class="contact-info">
+
+        <!-- TELEPHONE -->
+        <a href="tel:+33 665171489" class="contact-link">
+          📞 +33 6 65 17 14 89
+        </a>
+
+        <!-- EMAIL -->
+        <a href="gammalearncontact@gmail.com" class="contact-link">
+          ✉️ gammalearncontact@gmail.com
+        </a>
+
+      </div>
+
+      <div class="contact-note">
+        Disponibilités :  
+        7j/7, 24h/24
+      </div>
+
+    </div>
 
   </section>
 
