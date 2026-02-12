@@ -1,0 +1,123 @@
+/* =========================
+   PAGE OFFRES
+========================= */
+
+.offres-page{
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+/* HEADER */
+
+.offres-header{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.offres-header h1{
+  font-family: "Playfair Display", serif;
+  font-size: 54px;
+  margin-bottom: 10px;
+}
+
+.offres-header p{
+  color: var(--text-muted);
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+/* GRID */
+
+.offres-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 32px;
+}
+
+/* CARD */
+
+.offre-card{
+  background: var(--bg-soft);
+  border: 1px solid var(--border-soft);
+  border-radius: 22px;
+
+  padding: 36px 28px;
+
+  text-align: center;
+
+  position: relative;
+
+  transition: 0.3s;
+}
+
+.offre-card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+}
+
+/* Featured */
+
+.offre-card.featured{
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.badge{
+  position: absolute;
+  top: 18px;
+  right: 18px;
+
+  background: var(--accent);
+  color: white;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+
+/* Content */
+
+.offre-card h3{
+  margin-bottom: 12px;
+}
+
+.offre-desc{
+  color: var(--text-muted);
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.offre-card ul{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 22px;
+}
+
+.offre-card li{
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+/* Price */
+
+.offre-price{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+  .offres-header h1{
+    font-size: 40px;
+  }
+
+  .offre-card{
+    padding: 28px 22px;
+  }
+
+}
