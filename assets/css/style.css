@@ -90,7 +90,9 @@ body{
 
 /* LOGO */
 .hero-logo{
-  height: 160px;              
+  max-width: 180px;
+  width: 100%;
+  height: auto;
   margin-bottom: 36px;
   opacity: 0.95;
 }
@@ -165,7 +167,66 @@ footer{
   color: var(--text-muted);
 }
 
-/* Responsive */
-@media (max-width:768px){
-  .hero-logo{ height: 80px; }
+/* =========================
+   RESPONSIVE MOBILE / TABLETTE
+   ========================= */
+
+@media (max-width: 768px){
+
+  /* NAV */
+  .nav{
+    flex-direction: column;
+    padding: 12px 0;
+  }
+
+  .menu{
+    flex-direction: column;
+    gap: 14px;
+    font-size: 16px;
+  }
+
+  /* HERO */
+  .hero-content{
+    margin-top: 80px;
+    padding: 0 20px;
+  }
+
+  /* LOGO */
+  .hero-logo{
+    max-width: 120px;
+    margin-bottom: 24px;
+  }
+
+  /* TITRE */
+  .hero-manifesto h1{
+    font-size: 42px;
+    letter-spacing: 0.04em;
+  }
+
+  /* SLOGAN */
+  .slogan{
+    font-size: 15px;
+    max-width: 100%;
+    margin-bottom: 28px;
+  }
+
+  /* BOUTONS */
+  .hero-actions{
+    flex-direction: column;
+    width: 100%;
+    gap: 14px;
+  }
+
+  .btn{
+    width: 100%;
+    max-width: 260px;
+    padding: 14px 20px;
+    font-size: 15px;
+  }
+
+  /* FOOTER */
+  footer{
+    font-size: 12px;
+    padding: 18px 10px;
+  }
 }
