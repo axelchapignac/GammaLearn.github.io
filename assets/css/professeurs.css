@@ -1,0 +1,89 @@
+/* =========================
+   PAGE PROFESSEURS
+========================= */
+
+.prof-page{
+  padding-top: 120px;
+}
+
+/* HEADER */
+
+.prof-header{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.prof-header h1{
+  font-family: "Playfair Display", serif;
+  font-size: 56px;
+  margin-bottom: 12px;
+}
+
+.prof-header p{
+  color: var(--text-muted);
+}
+
+/* GRID */
+
+.prof-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+/* CARTE */
+
+.prof-card{
+  background: var(--bg-soft);
+  border: 1px solid var(--border-soft);
+  border-radius: 20px;
+  padding: 26px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.prof-card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.prof-card img{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.prof-card h3{
+  margin: 6px 0;
+}
+
+.prof-card span{
+  color: var(--accent);
+  font-size: 14px;
+}
+
+.prof-card p{
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 14px 0 20px;
+}
+
+/* METHODE */
+
+.prof-method{
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(17,26,46,0.6)
+  );
+}
+
+.prof-method h2{
+  font-family: "Playfair Display", serif;
+  margin-bottom: 14px;
+}
