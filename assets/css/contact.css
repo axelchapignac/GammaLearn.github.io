@@ -174,3 +174,89 @@ textarea:focus{
   }
 
 }
+
+/* =========================
+   CONTACT CARD
+========================= */
+
+.contact-info-box{
+  background: linear-gradient(
+    160deg,
+    rgba(59,130,246,0.08),
+    rgba(17,26,46,0.9)
+  );
+
+  border: 1px solid var(--border-soft);
+  border-radius: 22px;
+  padding: 40px;
+
+  box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+}
+
+.contact-subtitle{
+  color: var(--text-muted);
+  margin-bottom: 26px;
+}
+
+/* Card */
+
+.contact-card{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Item */
+
+.contact-item{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 14px 18px;
+
+  background: rgba(11,18,32,0.9);
+
+  border: 1px solid var(--border-soft);
+  border-radius: 14px;
+
+  text-decoration: none;
+  color: var(--text-main);
+
+  font-weight: 500;
+
+  transition: all 0.25s ease;
+}
+
+.contact-item:hover{
+  border-color: var(--accent);
+  background: rgba(17,26,46,0.95);
+  transform: translateY(-2px);
+}
+
+/* Icon */
+
+.contact-item .icon{
+  font-size: 20px;
+  width: 26px;
+  text-align: center;
+}
+
+/* Text */
+
+.contact-item .text{
+  font-size: 15px;
+  word-break: break-all;
+}
+
+/* Note */
+
+.contact-note{
+  margin-top: 22px;
+  padding-top: 16px;
+
+  border-top: 1px solid var(--border-soft);
+
+  font-size: 14px;
+  color: var(--text-muted);
+}
