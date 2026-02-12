@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Contact — GammaLearn</title>
 
   <link rel="stylesheet" href="../assets/css/style.css">
@@ -11,6 +12,7 @@
 
 <body>
 
+<!-- NAVIGATION -->
 <header class="top-nav">
   <div class="container nav">
     <nav class="menu">
@@ -24,28 +26,46 @@
 
 <main class="contact-page">
 
+  <!-- TITRE -->
   <section class="contact-header">
     <h1>Prendre contact</h1>
-    <p>Nous vous répondons sous 24h.</p>
+    <p>Nous vous répondons sous 24h</p>
   </section>
 
+  <!-- FORMULAIRE -->
   <section class="contact-container container">
 
-    <form class="contact-form">
+    <form
+      action="https://formspree.io/f/mkovjojz"
+      method="POST"
+      class="contact-form"
+    >
 
       <div class="form-group">
-        <label>Nom</label>
-        <input type="text" required>
+        <label for="nom">Nom</label>
+        <input
+          type="text"
+          id="nom"
+          name="nom"
+          placeholder="Votre nom"
+          required
+        >
       </div>
 
       <div class="form-group">
-        <label>Email</label>
-        <input type="email" required>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="exemple@email.com"
+          required
+        >
       </div>
 
       <div class="form-group">
-        <label>Niveau de l'élève</label>
-        <select required>
+        <label for="niveau">Niveau de l'élève</label>
+        <select id="niveau" name="niveau" required>
           <option value="">Choisir</option>
           <option>Collège</option>
           <option>Lycée</option>
@@ -55,10 +75,30 @@
       </div>
 
       <div class="form-group">
-        <label>Message</label>
-        <textarea rows="5" required></textarea>
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Expliquez votre besoin (matière, niveau, objectifs...)"
+          required
+        ></textarea>
       </div>
 
+      <!-- CONFIG FORMPSREE -->
+      <input
+        type="hidden"
+        name="_subject"
+        value="Nouvelle demande — GammaLearn"
+      >
+
+      <input
+        type="hidden"
+        name="_template"
+        value="table"
+      >
+
+      <!-- BOUTON -->
       <button type="submit" class="btn primary">
         Envoyer la demande
       </button>
@@ -69,6 +109,7 @@
 
 </main>
 
+<!-- FOOTER -->
 <footer>
   <div class="container">
     © GammaLearn — Tous droits réservés
