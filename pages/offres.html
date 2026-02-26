@@ -1,132 +1,231 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Nos offres — GammaLearn</title>
+  <title>Offres — GammaLearn</title>
+  <meta name="description" content="Cours particuliers de mathématiques premium : 1ère heure offerte, cours individuel à 40€/h, packs 5h et 10h. Méthode, rigueur et résultats." />
 
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="../assets/css/offres.css">
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/offres.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-
-<!-- NAV -->
-<header class="top-nav">
-  <div class="container nav">
-    <nav class="menu">
-      <a href="../index.html">Accueil</a>
-      <a href="professeur.html">Professeurs</a>
-      <a href="contact.html">Contact</a>
-      <a href="offres.html">Offres</a>
-    </nav>
-  </div>
-</header>
-
-<main class="offres-page">
-
-  <!-- HEADER -->
-  <section class="offres-header">
-    <h1>Nos offres</h1>
-    <p>
-      Des accompagnements personnalisés,
-      adaptés à chaque niveau.
-    </p>
-  </section>
-
-  <!-- CARTES -->
-  <section class="offres-grid container">
-
-    <!-- OFFRE 1 -->
-    <div class="offre-card">
-
-      <h3>Collège</h3>
-
-      <p class="offre-desc">
-        Consolidation des bases,
-        méthodologie et confiance.
-      </p>
-
-      <ul>
-        <li>✔ Maths générales</li>
-        <li>✔ Aide aux devoirs</li>
-        <li>✔ Préparation contrôles</li>
-      </ul>
-
-      <div class="offre-price">
-        À partir de €/h
-      </div>
-
-      <a href="contact.html" class="btn primary">
-        Demander un devis
-      </a>
-
+  <header class="top-nav">
+    <div class="container nav">
+      <nav class="menu" aria-label="Navigation principale">
+        <a href="../index.html">Accueil</a>
+        <a href="professeur.html">Professeurs</a>
+        <a href="contact.html">Contact</a>
+        <a href="offres.html" aria-current="page">Offres</a>
+      </nav>
     </div>
+  </header>
 
-    <!-- OFFRE 2 -->
-    <div class="offre-card featured">
+  <main class="offres-page">
+    <!-- HERO -->
+    <section class="pricing-hero">
+      <div class="container">
+        <p class="eyebrow">Accompagnement académique premium • 100% individuel</p>
 
-      <span class="badge">Populaire</span>
+        <h1>
+          La première heure de cours est <span class="accent">offerte</span>.
+        </h1>
 
-      <h3>Lycée / Prépa</h3>
+        <p class="lead">
+          Pas de cases “lycée / prépa / université”.
+          On part de votre objectif réel, on construit une méthode, et on vise l’excellence.
+        </p>
 
-      <p class="offre-desc">
-        Préparation examens,
-        concours et orientation.
-      </p>
+        <div class="hero-metrics" role="list">
+          <div class="metric" role="listitem">
+            <div class="metric-k">40€</div>
+            <div class="metric-l">Cours individuel / heure</div>
+          </div>
+          <div class="metric" role="listitem">
+            <div class="metric-k">1ère heure offerte</div>
+            <div class="metric-l">Séance diagnostic (sans engagement)</div>
+          </div>
+          <div class="metric" role="listitem">
+            <div class="metric-k">Packs</div>
+            <div class="metric-l">5h & 10h disponibles</div>
+          </div>
+        </div>
 
-      <ul>
-        <li>✔ Spécialité maths</li>
-        <li>✔ Bac / Concours</li>
-        <li>✔ Suivi régulier</li>
-      </ul>
+        <div class="hero-actions">
+          <a class="btn primary" href="contact.html">Réserver la 1ère heure offerte</a>
+          <a class="btn secondary" href="contact.html">Poser une question</a>
+        </div>
 
-      <div class="offre-price">
-        À partir de €/h
+        <p class="fineprint">
+          * La séance offerte sert à diagnostiquer les blocages, clarifier l’objectif, et établir un plan de travail.
+        </p>
       </div>
+    </section>
 
-      <a href="contact.html" class="btn primary">
-        Demander un devis
-      </a>
+    <!-- MÉTHODE -->
+    <section class="section container">
+      <header class="section-head">
+        <h2>Une méthode, pas du “bachotage”</h2>
+        <p>Le premium, c’est la clarté : diagnostic → plan → exécution → consolidation.</p>
+      </header>
 
-    </div>
+      <div class="steps">
+        <article class="step-card">
+          <div class="step-n">01</div>
+          <h3>Diagnostic (offert)</h3>
+          <p>On identifie précisément ce qui bloque et ce qui rapporte des points.</p>
+        </article>
 
-    <!-- OFFRE 3 -->
-    <div class="offre-card">
+        <article class="step-card">
+          <div class="step-n">02</div>
+          <h3>Plan de travail</h3>
+          <p>Une trajectoire claire : notions à verrouiller, exercices-cibles, priorités.</p>
+        </article>
 
-      <h3>Université</h3>
-
-      <p class="offre-desc">
-        Accompagnement supérieur
-        et finance quantitative.
-      </p>
-
-      <ul>
-        <li>✔ Analyse</li>
-        <li>✔ Probabilités</li>
-        <li>✔ Finance</li>
-      </ul>
-
-      <div class="offre-price">
-        À partir de €/h
+        <article class="step-card">
+          <div class="step-n">03</div>
+          <h3>Montée en puissance</h3>
+          <p>Rigueur + répétition intelligente : on transforme la compréhension en performance.</p>
+        </article>
       </div>
+    </section>
 
-      <a href="contact.html" class="btn primary">
-        Demander un devis
-      </a>
+    <!-- OFFRES -->
+    <section class="section container">
+      <header class="section-head">
+        <h2>Offres</h2>
+        <p>Formats individuels — adaptés à vos objectifs, sans étiquette de niveau.</p>
+      </header>
 
-    </div>
+      <section class="offres-grid" aria-label="Offres GammaLearn">
+        <!-- À L'UNITÉ -->
+        <article class="offre-card">
+          <h3>Cours individuel</h3>
+          <p class="offre-desc">Idéal pour démarrer ou traiter un point précis.</p>
 
-  </section>
+          <ul class="offer-list">
+            <li>✔ Séance 100% personnalisée</li>
+            <li>✔ Méthode + exercices ciblés</li>
+            <li>✔ Synthèse claire des priorités</li>
+          </ul>
 
-</main>
+          <div class="offre-price">40€ <span class="price-sub">/ heure</span></div>
 
-<footer>
-  <div class="container">
-    © GammaLearn — Tous droits réservés
-  </div>
-</footer>
+          <a class="btn primary" href="contact.html">Réserver</a>
+        </article>
 
+        <!-- PACK 5H (featured) -->
+        <article class="offre-card featured">
+          <span class="badge">Le plus choisi</span>
+
+          <h3>Pack 5 heures</h3>
+          <p class="offre-desc">Progression nette et structurée, sur un rythme cohérent.</p>
+
+          <ul class="offer-list">
+            <li>✔ Plan sur 2–3 semaines</li>
+            <li>✔ Priorisation “points faciles”</li>
+            <li>✔ Ajustements entre séances (léger)</li>
+          </ul>
+
+          <div class="offre-price">200€ <span class="price-sub">(5 × 40€)</span></div>
+
+          <a class="btn primary" href="contact.html">Choisir ce pack</a>
+        </article>
+
+        <!-- PACK 10H -->
+        <article class="offre-card">
+          <h3>Pack 10 heures</h3>
+          <p class="offre-desc">Accompagnement approfondi : méthode, régularité, performance.</p>
+
+          <ul class="offer-list">
+            <li>✔ Programme complet + révisions</li>
+            <li>✔ Entraînement type examen/concours</li>
+            <li>✔ Consolidation & automatisation</li>
+          </ul>
+
+          <div class="offre-price">400€ <span class="price-sub">(10 × 40€)</span></div>
+
+          <a class="btn primary" href="contact.html">Choisir ce pack</a>
+        </article>
+      </section>
+
+      <p class="note">
+        Tous les cours sont <strong>strictement individuels</strong>. On adapte le contenu à l’objectif (contrôle, examen, concours, semestre…).
+      </p>
+    </section>
+
+    <!-- CALLOUT : 1ère heure offerte -->
+    <section class="section container">
+      <div class="callout">
+        <div class="callout-left">
+          <h2>La 1ère heure offerte, concrètement</h2>
+          <p>
+            Ce n’est pas “juste une heure gratuite” : c’est une séance de diagnostic premium.
+            Vous repartez avec une vision claire et un plan d’action.
+          </p>
+          <ul class="callout-list">
+            <li>✔ Analyse des difficultés</li>
+            <li>✔ Définition d’un objectif réaliste et ambitieux</li>
+            <li>✔ Recommandation du format (unité / pack)</li>
+          </ul>
+        </div>
+
+        <div class="callout-right">
+          <div class="callout-price">40€ → <span class="free">OFFERT</span></div>
+          <a class="btn primary" href="contact.html">Réserver le diagnostic</a>
+          <div class="fineprint">Valable une fois par élève • Sans engagement</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section container">
+      <header class="section-head">
+        <h2>FAQ</h2>
+        <p>Réponses simples, sans poudre aux yeux.</p>
+      </header>
+
+      <div class="faq">
+        <details class="faq-item">
+          <summary>La 1ère heure offerte m’engage à prendre un pack ?</summary>
+          <p>Non. C’est un diagnostic complet. Vous décidez ensuite.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Tu fais une différence entre lycée, prépa et université ?</summary>
+          <p>Non. Je m’adapte à l’objectif et aux acquis réels, pas à une étiquette.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Comment choisir entre 5h et 10h ?</summary>
+          <p>Le diagnostic offert sert justement à recommander le format le plus cohérent.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>En ligne ou présentiel ?</summary>
+          <p>Les deux sont possibles selon votre organisation. Le cadre est défini dès le début.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="final-cta">
+      <div class="container">
+        <h2>Visez l’excellence, sérieusement</h2>
+        <p>Réservez la séance diagnostic offerte et repartez avec un plan clair.</p>
+        <a class="btn primary" href="contact.html">Réserver la 1ère heure offerte</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© GammaLearn — Tous droits réservés</div>
+  </footer>
 </body>
 </html>
