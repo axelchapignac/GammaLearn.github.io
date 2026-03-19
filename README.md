@@ -31,4 +31,4 @@ Selon les contenus et leur évolution :
 - Algèbre linéaire et bilinéaire
 - Probabilités
 - Topologie et espaces vectoriels normés
-- Préparation aux examens et concours (Prépa et Supérieur)
+- Préparation aux examens et concours (prépa et supérieur)
