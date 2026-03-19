@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://axelchapignac.github.io/GammaLearn.github.io/sitemap.xml

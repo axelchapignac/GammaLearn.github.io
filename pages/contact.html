@@ -3,164 +3,160 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Contact — GammaLearn</title>
-
+  <title>Contact | GammaLearn</title>
+  <meta name="description" content="Contactez GammaLearn pour un premier échange, un diagnostic offert et un accompagnement individuel en mathématiques.">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GammaLearn">
+  <meta property="og:title" content="Contact | GammaLearn">
+  <meta property="og:description" content="Premier échange, diagnostic offert et accompagnement individuel en mathématiques.">
+  <meta property="og:url" content="https://axelchapignac.github.io/GammaLearn.github.io/pages/contact.html">
+  <meta property="og:image" content="https://axelchapignac.github.io/GammaLearn.github.io/assets/img/Logo_GammaLearn.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://axelchapignac.github.io/GammaLearn.github.io/pages/contact.html">
+  <link rel="icon" type="image/png" href="../assets/img/Logo_GammaLearn.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/css/contact.css">
 </head>
-
 <body>
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
 
-<!-- NAVIGATION -->
-<header class="top-nav">
-  <div class="container nav">
-    <nav class="menu">
-      <a href="../index.html">Accueil</a>
-      <a href="professeur.html">Professeurs</a>
-      <a href="contact.html">Contact</a>
-      <a href="offres.html">Offres</a>
-      <a href="temoignages.html">Témoignages</a>
-    </nav>
-  </div>
-</header>
+  <header class="top-nav">
+    <div class="container nav">
+      <a class="nav-brand" href="../index.html" aria-label="GammaLearn, retour à l'accueil">
+        <img src="../assets/img/Logo_GammaLearn.png" alt="" width="60" height="60">
+        <span class="brand-mark">
+          <span class="brand-name">GammaLearn</span>
+          <span class="brand-tagline">Maths, méthode, progression</span>
+        </span>
+      </a>
 
-<main class="contact-page">
+      <nav class="menu" aria-label="Navigation principale">
+        <a href="../index.html">Accueil</a>
+        <a href="professeur.html">Professeurs</a>
+        <a href="offres.html">Offres</a>
+        <a href="temoignages.html">Témoignages</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
 
-  <!-- HEADER -->
-  <section class="contact-header">
-    <h1>Prendre contact</h1>
-    <p>
-      Une question ? Un projet ?  
-      Nous vous répondons sous 24h.
-    </p>
-  </section>
-
-  <!-- ZONE PRINCIPALE -->
-  <section class="contact-wrapper container">
-
-    <!-- FORMULAIRE -->
-    <div class="contact-form-box">
-
-      <h2>Envoyer un message</h2>
-
-      <form
-        action="https://formspree.io/f/mkovjojz"
-        method="POST"
-        class="contact-form"
-      >
-
-        <div class="form-group">
-          <label for="nom">Nom</label>
-          <input
-            type="text"
-            id="nom"
-            name="nom"
-            placeholder="Votre nom"
-            required
-          >
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="exemple@email.com"
-            required
-          >
-        </div>
-
-        <div class="form-group">
-          <label for="niveau">Niveau</label>
-          <select id="niveau" name="niveau" required>
-            <option value="">Choisir</option>
-            <option>Collège</option>
-            <option>Lycée</option>
-            <option>Prépa</option>
-            <option>Université</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            rows="5"
-            placeholder="Expliquez votre besoin (matière, niveau, objectifs...)"
-            required
-          ></textarea>
-        </div>
-
-        <!-- CONFIG FORMPSREE -->
-        <input
-          type="hidden"
-          name="_subject"
-          value="Nouvelle demande — GammaLearn"
-        >
-
-        <input
-          type="hidden"
-          name="_template"
-          value="table"
-        >
-
-        <button type="submit" class="btn primary">
-          Envoyer la demande
-        </button>
-
-      </form>
-
+      <div class="nav-cta">
+        <a href="offres.html" class="btn secondary">Voir les offres</a>
+      </div>
     </div>
+  </header>
 
-    <!-- INFOS CONTACT -->
-    <div class="contact-info-box">
+  <main id="main-content" class="page-shell contact-page">
+    <section class="page-hero">
+      <div class="container page-hero-copy">
+        <p class="eyebrow">Premier échange</p>
+        <h1>Prendre contact simplement, sans friction.</h1>
+        <p class="lead">
+          Décrivez votre niveau, votre objectif et votre échéance. GammaLearn répond avec un cadre clair et un format adapté.
+        </p>
+      </div>
+    </section>
 
-      <h2>Nous contacter directement</h2>
+    <section class="container contact-wrapper">
+      <div class="contact-form-box panel">
+        <h2>Envoyer un message</h2>
+        <p class="contact-intro">Le formulaire est conçu pour aller à l’essentiel et qualifier rapidement le besoin.</p>
 
-      <p>
-        Vous préférez échanger rapidement ?
-        Appelez-nous ou écrivez-nous directement.
-      </p>
+        <form action="https://formspree.io/f/mkovjojz" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" autocomplete="name" placeholder="Votre nom" required>
+          </div>
 
-      <div class="contact-info-box">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="exemple@email.com" required>
+          </div>
 
-  <h2>Nous contacter directement</h2>
+          <div class="form-group">
+            <label for="niveau">Niveau</label>
+            <select id="niveau" name="niveau" required>
+              <option value="">Choisir</option>
+              <option value="college">Collège</option>
+              <option value="lycee">Lycée</option>
+              <option value="prepa">Prépa</option>
+              <option value="universite">Université</option>
+            </select>
+          </div>
 
-  <p class="contact-subtitle">
-    Réponse rapide par téléphone ou email
-  </p>
+          <div class="form-group">
+            <label for="objectif">Objectif principal</label>
+            <select id="objectif" name="objectif" required>
+              <option value="">Choisir</option>
+              <option value="remise-a-niveau">Remise à niveau</option>
+              <option value="controle-examen">Contrôle / examen</option>
+              <option value="concours-prepa">Concours / prépa</option>
+              <option value="suivi-regulier">Suivi régulier</option>
+            </select>
+          </div>
 
-  <div class="contact-card">
+          <div class="form-group">
+            <label for="echeance">Échéance</label>
+            <select id="echeance" name="echeance" required>
+              <option value="">Choisir</option>
+              <option value="moins-2-semaines">Moins de 2 semaines</option>
+              <option value="1-mois">Dans le mois</option>
+              <option value="trimestre">Ce trimestre</option>
+              <option value="long-terme">Suivi long terme</option>
+            </select>
+          </div>
 
-    <a href="tel:+33665171489" class="contact-item">
-      <span class="icon">📞</span>
-      <span class="text">+33 6 65 17 14 89</span>
-    </a>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Expliquez votre besoin: matière, niveau, objectifs, échéance, difficultés principales." required></textarea>
+          </div>
 
-    <a href="mailto:gammalearncontact@gmail.com" class="contact-item">
-      <span class="icon">✉️</span>
-      <span class="text">gammalearncontact@gmail.com</span>
-    </a>
+          <input type="hidden" name="_subject" value="Nouvelle demande — GammaLearn">
+          <input type="hidden" name="_template" value="table">
 
-  </div>
+          <button type="submit" class="btn primary">Envoyer la demande</button>
+        </form>
+      </div>
 
-  <div class="contact-note">
-    Disponible 7j/7 • 24h/24
-  </div>
+      <aside class="contact-info-box panel" aria-label="Informations de contact">
+        <div>
+          <p class="eyebrow">Réponse rapide</p>
+          <h2>Parler directement à GammaLearn</h2>
+          <p class="contact-subtitle">Téléphone ou email pour un échange direct, simple et professionnel.</p>
+        </div>
 
-  </section>
+        <div class="contact-card">
+          <a href="tel:+33665171489" class="contact-item">
+            <span class="contact-label">Téléphone</span>
+            <span class="contact-value">+33 6 65 17 14 89</span>
+          </a>
 
-</main>
+          <a href="mailto:gammalearncontact@gmail.com" class="contact-item">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">gammalearncontact@gmail.com</span>
+          </a>
+        </div>
 
-<!-- FOOTER -->
-<footer>
-  <div class="container">
-    © GammaLearn — Tous droits réservés
-  </div>
-</footer>
+        <ul class="contact-highlights">
+          <li>Premier échange orienté diagnostic</li>
+          <li>Réponse annoncée sous 24h</li>
+          <li>Accompagnement individuel uniquement</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
 
+  <footer>
+    <div class="container footer-inner">
+      <div>© GammaLearn — Tous droits réservés</div>
+      <div class="footer-links">
+        <a href="offres.html">Offres</a>
+        <a href="temoignages.html">Témoignages</a>
+        <a href="professeur.html">Professeurs</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

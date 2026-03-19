@@ -1,135 +1,196 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Offres — GammaLearn</title>
-  <meta name="description" content="Cours particuliers : 40€/h. Packs 5h (200€) et 10h (400€). 1er cours offert (diagnostic), sans engagement." />
-
-  <link rel="stylesheet" href="../assets/css/style.css" />
-  <link rel="stylesheet" href="../assets/css/offres.css" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offres | GammaLearn</title>
+  <meta name="description" content="Consultez les offres GammaLearn: cours particuliers à l'heure, packs 5h et 10h, avec diagnostic offert et accompagnement individuel en mathématiques.">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GammaLearn">
+  <meta property="og:title" content="Offres | GammaLearn">
+  <meta property="og:description" content="Cours particuliers à l'heure, packs 5h et 10h, avec diagnostic offert et accompagnement individuel en mathématiques.">
+  <meta property="og:url" content="https://axelchapignac.github.io/GammaLearn.github.io/pages/offres.html">
+  <meta property="og:image" content="https://axelchapignac.github.io/GammaLearn.github.io/assets/img/Logo_GammaLearn.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://axelchapignac.github.io/GammaLearn.github.io/pages/offres.html">
+  <link rel="icon" type="image/png" href="../assets/img/Logo_GammaLearn.png">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Le premier cours offert m'engage-t-il ensuite à prendre un pack ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. Le diagnostic permet de décider ensuite si un suivi est pertinent et sous quel format."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment choisir entre 5h et 10h ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le choix dépend du niveau réel, de l'échéance et de l'ampleur des lacunes. Le diagnostic sert à recommander le format le plus cohérent."
+          }
+        }
+      ]
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/offres.css">
 </head>
-
 <body>
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
+
   <header class="top-nav">
     <div class="container nav">
+      <a class="nav-brand" href="../index.html" aria-label="GammaLearn, retour à l'accueil">
+        <img src="../assets/img/Logo_GammaLearn.png" alt="" width="60" height="60">
+        <span class="brand-mark">
+          <span class="brand-name">GammaLearn</span>
+          <span class="brand-tagline">Maths, méthode, progression</span>
+        </span>
+      </a>
+
       <nav class="menu" aria-label="Navigation principale">
         <a href="../index.html">Accueil</a>
         <a href="professeur.html">Professeurs</a>
-        <a href="contact.html">Contact</a>
         <a href="offres.html" aria-current="page">Offres</a>
         <a href="temoignages.html">Témoignages</a>
+        <a href="contact.html">Contact</a>
       </nav>
+
+      <div class="nav-cta">
+        <a href="contact.html" class="btn secondary">Réserver</a>
+      </div>
     </div>
   </header>
 
-  <main class="offres-page">
-    <!-- HERO -->
-    <section class="pricing-hero">
-      <div class="container">
-        <p class="eyebrow">Cours particuliers • 100% individuel</p>
-
-        <h1>
-          Le premier cours est <span class="accent">offert</span>.
-        </h1>
-
+  <main id="main-content" class="page-shell offres-page">
+    <section class="page-hero pricing-hero">
+      <div class="container page-hero-copy">
+        <p class="eyebrow">Cours particuliers · 100% individuel</p>
+        <h1>Le premier cours est <span class="accent">offert</span>.</h1>
         <p class="lead">
-          Une séance de diagnostic (sans engagement), puis un accompagnement clair et efficace.
+          Une séance de diagnostic utile pour comprendre le besoin, fixer une trajectoire et recommander le format le plus cohérent.
         </p>
-
-        <div class="hero-cta">
-          <a class="btn primary" href="contact.html">Réserver le 1er cours offert</a>
-          <div class="fineprint">Valable une fois par élève • Packs disponibles (5h / 10h)</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- TARIFS (SIMPLE) -->
-    <section class="section container" aria-label="Tarifs">
-      <header class="section-head">
-        <h2>Tarifs</h2>
-      </header>
-
-      <div class="pricing-simple">
-        <article class="price-card">
-          <div class="price-title">À l’heure</div>
-          <div class="price-main">50€ <span class="price-sub">/ h</span></div>
-          <p class="price-desc">Idéal pour démarrer, se débloquer, ou faire un point précis.</p>
-        </article>
-
-        <article class="price-card">
-          <div class="price-title">Pack 5h</div>
-          <div class="price-main">225€ <span class="price-sub">(5 × 45€)</span></div>
-          <p class="price-desc">Pour avancer vite sur 1–2 semaines avec un rythme cohérent.</p>
-        </article>
-
-        <article class="price-card featured">
-          <div class="badge">Le plus choisi</div>
-          <div class="price-title">Pack 10h</div>
-          <div class="price-main">400€ <span class="price-sub">(10 × 40€)</span></div>
-          <p class="price-desc">Pour une vraie montée en puissance (méthode + régularité).</p>
-        </article>
-      </div>
-
-      <p class="note">
-        Tous les cours sont <strong>strictement individuels</strong>. Le contenu est adapté à ton objectif (contrôle, examen, concours…)
-      </p>
-    </section>
-
-    <!-- 1er cours offert -->
-    <section class="section container" aria-label="Premier cours offert">
-      <div class="simple-box">
-        <h2>Le premier cours offert : ce que tu obtiens</h2>
-        <p class="muted">
-          Une séance de diagnostic utile. Tu repars avec une direction claire.
-        </p>
-
-        <ul class="simple-list">
-          <li>✔ Diagnostic des points de blocage + niveau réel</li>
-          <li>✔ Objectif précis (court terme / long terme)</li>
-          <li>✔ Plan de travail recommandé (à l’heure, pack 5h ou 10h)</li>
-        </ul>
 
         <div class="hero-cta">
           <a class="btn primary" href="contact.html">Réserver le diagnostic</a>
-          <div class="fineprint">Sans engagement</div>
+          <p class="fineprint">Sans engagement · valable une fois par élève</p>
         </div>
       </div>
     </section>
 
-    <!-- FAQ -->
-    <section class="section container" aria-label="FAQ">
-      <header class="section-head">
-        <h2>FAQ</h2>
-      </header>
+    <section class="section">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Tarification</p>
+          <h2>Une grille simple, lisible et crédible</h2>
+          <p>Les offres doivent rassurer et éviter l'effet "site vitrine flou". Ici, le parcours devient plus professionnel.</p>
+        </header>
 
-      <div class="faq">
-        <details class="faq-item">
-          <summary>Le premier cours offert m’engage à prendre un pack ?</summary>
-          <p>Non. C’est une séance diagnostic. Tu peux ensuite choisir : à l’heure, pack 5h, pack 10h…</p>
-        </details>
+        <div class="pricing-simple">
+          <article class="price-card panel">
+            <p class="price-title">Cours à l'heure</p>
+            <div class="price-main">50€ <span class="price-sub">/ h</span></div>
+            <p class="price-desc">Pour débloquer un point précis, préparer un contrôle ou lancer un suivi.</p>
+          </article>
 
-        <details class="faq-item">
-          <summary>Comment choisir entre 5h et 10h ?</summary>
-          <p>On le décide après le diagnostic : selon ton objectif, ton niveau et ton échéance. Je te recommande le format le plus cohérent.</p>
-        </details>
+          <article class="price-card panel">
+            <p class="price-title">Pack 5h</p>
+            <div class="price-main">225€ <span class="price-sub">soit 45€/h</span></div>
+            <p class="price-desc">Adapté à une remise à niveau courte ou à une échéance proche.</p>
+          </article>
+
+          <article class="price-card panel featured">
+            <span class="badge">Le plus choisi</span>
+            <p class="price-title">Pack 10h</p>
+            <div class="price-main">400€ <span class="price-sub">soit 40€/h</span></div>
+            <p class="price-desc">Le meilleur format pour installer une vraie progression et une méthode durable.</p>
+          </article>
+        </div>
+
+        <p class="note">
+          Tous les cours sont strictement individuels. Le contenu est ajusté à l'objectif: contrôle, concours, examen ou consolidation de fond.
+        </p>
       </div>
     </section>
 
-    <!-- CTA FINAL -->
-    <section class="final-cta">
+    <section class="section">
       <div class="container">
-        <h2>On fait le point, et on avance</h2>
-        <p>Réserve le premier cours offert : diagnostic + plan clair.</p>
-        <a class="btn primary" href="contact.html">Contacter GammaLearn</a>
+        <div class="simple-box panel">
+          <div class="simple-copy">
+            <p class="eyebrow">Diagnostic offert</p>
+            <h2>Ce que tu obtiens lors du premier échange</h2>
+            <p class="muted">Une séance utile, pas un simple appel commercial.</p>
+          </div>
+
+          <ul class="simple-list">
+            <li>Diagnostic des blocages et du niveau réel</li>
+            <li>Clarification des objectifs à court et moyen terme</li>
+            <li>Recommandation de rythme: heure, pack 5h ou pack 10h</li>
+          </ul>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="contact.html">Réserver le diagnostic</a>
+            <p class="fineprint">Réponse annoncée sous 24h</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2>Questions fréquentes</h2>
+        </header>
+
+        <div class="faq">
+          <details class="faq-item panel">
+            <summary>Le premier cours offert m'engage-t-il ensuite à prendre un pack ?</summary>
+            <p>Non. Le diagnostic permet justement de décider ensuite si un suivi est pertinent, et sous quel format.</p>
+          </details>
+
+          <details class="faq-item panel">
+            <summary>Comment choisir entre 5h et 10h ?</summary>
+            <p>Le choix dépend du niveau réel, de l'échéance et de l'ampleur des lacunes. Le diagnostic sert à recommander le format le plus cohérent.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-band panel">
+          <div>
+            <p class="eyebrow">Étape suivante</p>
+            <h2>On fait le point, puis on avance proprement</h2>
+            <p>Le site doit convertir sur une promesse simple: comprendre la situation avant de vendre des heures.</p>
+          </div>
+
+          <a class="btn primary" href="contact.html">Contacter GammaLearn</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="container">© GammaLearn — Tous droits réservés</div>
+    <div class="container footer-inner">
+      <div>© GammaLearn — Tous droits réservés</div>
+      <div class="footer-links">
+        <a href="professeur.html">Professeurs</a>
+        <a href="temoignages.html">Témoignages</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
