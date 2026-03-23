@@ -296,6 +296,50 @@ textarea{
   padding:48px 0 112px;
 }
 
+.home-stage{
+  padding:72px 0 96px;
+}
+
+.home-minimal{
+  max-width:860px;
+  margin:0 auto;
+  padding:56px 48px;
+  text-align:center;
+}
+
+.home-minimal .hero-logo{
+  margin:0 auto 24px;
+}
+
+.home-minimal h1{
+  margin:0 0 20px;
+  font-family:"Playfair Display", Georgia, serif;
+  font-size:clamp(3rem, 8vw, 5.2rem);
+  line-height:0.98;
+  letter-spacing:-0.04em;
+}
+
+.home-minimal .slogan{
+  margin:0 auto 28px;
+  max-width:640px;
+}
+
+.home-minimal .hero-actions{
+  justify-content:center;
+  margin-bottom:16px;
+}
+
+.home-note{
+  margin:0;
+  color:var(--text-muted);
+  font-family:"Manrope", system-ui, sans-serif;
+  font-size:0.95rem;
+}
+
+.home-overview{
+  padding-top:28px;
+}
+
 .hero-layout{
   display:grid;
   grid-template-columns:minmax(0, 1.2fr) minmax(300px, 0.8fr);
@@ -543,6 +587,10 @@ footer{
 
   .hero-actions .btn{
     width:100%;
+  }
+
+  .home-minimal{
+    padding:40px 24px;
   }
 
   .footer-inner{
