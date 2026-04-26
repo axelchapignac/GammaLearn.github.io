@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Témoignages | GammaLearn</title>
-  <meta name="description" content="Retours d'expérience d'étudiants accompagnés par GammaLearn en mathématiques: progression, méthode et résultats.">
-  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Témoignages courts d'élèves accompagnés par GammaLearn en mathématiques: progression, confiance et méthode.">
+  <meta name="theme-color" content="#f7f5ef">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="GammaLearn">
   <meta property="og:title" content="Témoignages | GammaLearn">
-  <meta property="og:description" content="Retours d'expérience d'étudiants accompagnés par GammaLearn en mathématiques.">
+  <meta property="og:description" content="Progression, méthode et confiance: retours d'élèves accompagnés par GammaLearn.">
   <meta property="og:url" content="https://axelchapignac.github.io/GammaLearn.github.io/pages/temoignages.html">
   <meta property="og:image" content="https://axelchapignac.github.io/GammaLearn.github.io/assets/img/Logo_GammaLearn.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -17,9 +17,10 @@
   <link rel="icon" type="image/png" href="../assets/img/Logo_GammaLearn.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/css/temoignages.css">
+  <script src="../assets/js/main.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Aller au contenu</a>
@@ -30,7 +31,7 @@
         <img src="../assets/img/Logo_GammaLearn.png" alt="" width="60" height="60">
         <span class="brand-mark">
           <span class="brand-name">GammaLearn</span>
-          <span class="brand-tagline">Maths, méthode, progression</span>
+          <span class="brand-tagline">Mathématiques d'excellence</span>
         </span>
       </a>
 
@@ -43,112 +44,118 @@
       </nav>
 
       <div class="nav-cta">
-        <a href="contact.html" class="btn secondary">Me contacter</a>
+        <a href="contact.html" class="btn primary small">Diagnostic offert</a>
       </div>
     </div>
   </header>
 
   <main id="main-content" class="page-shell temoignages-page">
-    <section class="page-hero tem-hero">
-      <div class="container page-hero-copy">
-        <p class="eyebrow">Preuve sociale</p>
-        <h1>Témoignages d'étudiants et retours d'expérience concrets.</h1>
+    <section class="page-hero center">
+      <div class="container page-hero-copy" data-reveal>
+        <p class="eyebrow">Témoignages</p>
+        <h1>Des progrès visibles.</h1>
+        <p class="lead">Des retours courts, centrés sur la méthode, les résultats et la confiance.</p>
+      </div>
+    </section>
+
+    <section class="section compact">
+      <div class="container metric-grid">
+        <article class="info-card" data-reveal>
+          <h3>+4 points</h3>
+          <p>Progression mesurée en terminale.</p>
+        </article>
+        <article class="info-card" data-reveal style="--reveal-delay:80ms">
+          <h3>Moyenne doublée</h3>
+          <p>Suivi régulier en prépa.</p>
+        </article>
+        <article class="info-card" data-reveal style="--reveal-delay:160ms">
+          <h3>Plus de confiance</h3>
+          <p>Exercices abordés avec méthode.</p>
+        </article>
       </div>
     </section>
 
     <section class="section">
+      <div class="container testimonial-grid" aria-label="Liste des témoignages">
+        <article class="quote-card featured" data-reveal>
+          <img class="tem-photo" src="../assets/img/temoignages/maery.webp" alt="Photo de Maery" width="92" height="92" loading="lazy">
+          <div>
+            <span class="result-tag">+4 points</span>
+            <p class="tem-text">"J'ai pu poser mes questions, dépasser mes difficultés et rendre les exercices difficiles beaucoup plus accessibles."</p>
+            <div class="tem-meta">
+              <span class="tem-name">Maery</span>
+              <span>Terminale · Lycée Louis-le-Grand</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="quote-card" data-reveal style="--reveal-delay:80ms">
+          <img class="tem-photo" src="../assets/img/temoignages/samantha.jpg" alt="Photo de Samantha" width="72" height="72" loading="lazy">
+          <div>
+            <span class="result-tag">Méthode</span>
+            <p class="tem-text">"Le rythme est adapté à mon niveau et les notions abstraites deviennent plus claires."</p>
+            <div class="tem-meta">
+              <span class="tem-name">Samantha</span>
+              <span>Prépa ECG · Lycée Hoche</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="quote-card" data-reveal style="--reveal-delay:120ms">
+          <img class="tem-photo" src="../assets/img/temoignages/cyprien.webp" alt="Photo de Cyprien" width="72" height="72" loading="lazy">
+          <div>
+            <span class="result-tag">Moyenne doublée</span>
+            <p class="tem-text">"Un cadre de travail régulier m'a permis de combler mes lacunes en prépa."</p>
+            <div class="tem-meta">
+              <span class="tem-name">Cyprien</span>
+              <span>Prépa ECG · Lycée de Troyes</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="quote-card" data-reveal style="--reveal-delay:160ms">
+          <img class="tem-photo" src="../assets/img/temoignages/lisa.webp" alt="Photo de Lisa" width="72" height="72" loading="lazy">
+          <div>
+            <span class="result-tag">Résultats rapides</span>
+            <p class="tem-text">"Les exemples sont pertinents et le suivi est vraiment adapté aux besoins."</p>
+            <div class="tem-meta">
+              <span class="tem-name">Lisa</span>
+              <span>Licence Maths · Sorbonne Université</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="quote-card" data-reveal style="--reveal-delay:200ms">
+          <img class="tem-photo" src="../assets/img/temoignages/james.webp" alt="Photo de James" width="72" height="72" loading="lazy">
+          <div>
+            <span class="result-tag">Plus de confiance</span>
+            <p class="tem-text">"Je comprends mieux le cours et je gagne en confiance grâce à des explications claires."</p>
+            <div class="tem-meta">
+              <span class="tem-name">James</span>
+              <span>Prépa ECG · Lycée Saint-Jean de Passy</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section compact">
       <div class="container">
-        <div class="split-grid">
-          <article class="info-card panel">
-            <h3>+30 élèves accompagnés</h3>
-          </article>
-          <article class="info-card panel">
-            <h3>Progression observable</h3>
-          </article>
-          <article class="info-card panel">
-            <h3>Suivi individualisé</h3>
-          </article>
+        <div class="cta-band" data-reveal>
+          <div>
+            <p class="eyebrow">Diagnostic offert</p>
+            <h2>Faire le point sur votre objectif.</h2>
+            <p>Un échange simple pour choisir le bon suivi.</p>
+          </div>
+          <a href="contact.html" class="btn primary">Prendre contact</a>
         </div>
       </div>
     </section>
-
-    <section class="section">
-      <div class="container tem-list" aria-label="Liste des témoignages">
-        <article class="tem-card panel">
-          <img class="tem-photo" src="../assets/img/temoignages/maery.webp" alt="Photo de Maery" width="96" height="96" loading="lazy">
-          <div class="tem-body">
-            <div class="tem-meta">
-              <div class="tem-name">Maery</div>
-              <div class="tem-formation">Terminale · Lycée Louis-le-Grand</div>
-            </div>
-            <p class="tem-text">
-              Axel met largement en confiance pendant les cours. Poser mes questions et mettre en avant mes difficultés m'a permis de les dépasser.
-              J'ai gagné 4 points de moyenne en maths, et les exercices difficiles sont devenus beaucoup plus accessibles.
-            </p>
-          </div>
-        </article>
-
-        <article class="tem-card panel">
-          <img class="tem-photo" src="../assets/img/temoignages/samantha.jpg" alt="Photo de Samantha" width="96" height="96" loading="lazy">
-          <div class="tem-body">
-            <div class="tem-meta">
-              <div class="tem-name">Samantha</div>
-              <div class="tem-formation">Prépa ECG · Lycée Hoche</div>
-            </div>
-            <p class="tem-text">
-              Le rythme est adapté à mon niveau et Axel m'aide à mieux visualiser des notions abstraites que je ne maîtrisais pas.
-              Son accompagnement me permet d'assimiler les méthodes de base, de prendre de bons réflexes et d'être plus à l'aise en exercice.
-            </p>
-          </div>
-        </article>
-
-        <article class="tem-card panel">
-          <img class="tem-photo" src="../assets/img/temoignages/cyprien.webp" alt="Photo de Cyprien" width="96" height="96" loading="lazy">
-          <div class="tem-body">
-            <div class="tem-meta">
-              <div class="tem-name">Cyprien</div>
-              <div class="tem-formation">Prépa ECG · Lycée de Troyes</div>
-            </div>
-            <p class="tem-text">
-              J'ai commencé les cours pour combler mes lacunes et retrouver un vrai cadre de travail.
-              L'investissement, la pédagogie et la régularité m'ont permis de doubler ma moyenne pendant les deux années de classe préparatoire.
-            </p>
-          </div>
-        </article>
-
-        <article class="tem-card panel">
-          <img class="tem-photo" src="../assets/img/temoignages/lisa.webp" alt="Photo de Lisa" width="96" height="96" loading="lazy">
-          <div class="tem-body">
-            <div class="tem-meta">
-              <div class="tem-name">Lisa</div>
-              <div class="tem-formation">Licence Maths · Sorbonne Université</div>
-            </div>
-            <p class="tem-text">
-              Axel fait preuve d'une réelle pédagogie et illustre les notions par des exemples pertinents.
-              Grâce à son accompagnement, j'ai pu améliorer mes résultats rapidement avec un suivi adapté à mes besoins.
-            </p>
-          </div>
-        </article>
-
-        <article class="tem-card panel">
-          <img class="tem-photo" src="../assets/img/temoignages/james.webp" alt="Photo de James" width="96" height="96" loading="lazy">
-          <div class="tem-body">
-            <div class="tem-meta">
-              <div class="tem-name">James</div>
-              <div class="tem-formation">Prépa ECG · Lycée Saint-Jean de Passy</div>
-            </div>
-            <p class="tem-text">
-              Le suivi me permet de revenir sur le cours, de faire les exercices avec méthode et de mieux comprendre grâce à des explications claires.
-              J'y gagne en compréhension et en confiance.
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
+  </main>
 
   <footer>
     <div class="container footer-inner">
-      <div>© GammaLearn — Tous droits réservés</div>
+      <div>© GammaLearn - Tous droits réservés</div>
       <div class="footer-links">
         <a href="offres.html">Offres</a>
         <a href="professeur.html">Professeurs</a>

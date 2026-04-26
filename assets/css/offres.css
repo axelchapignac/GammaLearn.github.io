@@ -1,154 +1,16 @@
-/* =========================
-   PAGE OFFRES
-   ========================= */
-
-.pricing-hero{
-  position:relative;
+/* Page-specific refinements for offers */
+.offres-page .page-hero{
+  padding-bottom:40px;
 }
 
-.pricing-hero::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  background:
-    radial-gradient(circle at top left, rgba(88,166,255,0.14), transparent 30%),
-    radial-gradient(circle at top right, rgba(123,224,176,0.08), transparent 22%);
-  pointer-events:none;
+.offres-page .pricing-grid{
+  margin-top:6px;
 }
 
-.pricing-simple{
-  display:grid;
-  grid-template-columns:repeat(3, minmax(0, 1fr));
-  gap:18px;
-}
-
-.price-card{
-  position:relative;
-  padding:28px;
-}
-
-.price-card.featured{
-  border-color:rgba(88,166,255,0.45);
-  box-shadow:0 0 0 1px rgba(88,166,255,0.4), var(--shadow-md);
-}
-
-.badge{
-  position:absolute;
-  top:18px;
-  right:18px;
-  padding:6px 10px;
-  border-radius:999px;
-  background:var(--accent-soft);
-  color:#dcecff;
-  font-family:"Manrope", system-ui, sans-serif;
-  font-size:0.78rem;
-  font-weight:800;
-}
-
-.price-title{
-  margin:0 0 14px;
-  color:var(--text-muted);
-  font-family:"Manrope", system-ui, sans-serif;
-  font-size:0.8rem;
-  font-weight:800;
-  letter-spacing:0.14em;
-  text-transform:uppercase;
-}
-
-.price-main{
-  margin-bottom:12px;
-  font-family:"Manrope", system-ui, sans-serif;
-  font-size:2rem;
-  font-weight:800;
-}
-
-.price-sub{
-  color:var(--text-muted);
-  font-size:0.98rem;
-  font-weight:600;
-}
-
-.price-desc,
-.note,
-.muted,
-.fineprint,
-.faq-item p{
-  margin:0;
-  color:var(--text-muted);
-  font-family:"Manrope", system-ui, sans-serif;
-}
-
-.note{
-  max-width:820px;
-  margin:18px auto 0;
-  text-align:center;
-}
-
-.simple-box{
-  display:grid;
-  gap:20px;
-  padding:32px;
-}
-
-.simple-copy h2{
-  margin:0 0 10px;
-  font-family:"Playfair Display", Georgia, serif;
-  font-size:2rem;
-}
-
-.simple-copy p{
-  margin:0;
-}
-
-.simple-list{
-  margin:0;
-  padding-left:18px;
-  color:var(--text-soft);
-  font-family:"Manrope", system-ui, sans-serif;
-}
-
-.simple-list li + li{
-  margin-top:10px;
-}
-
-.hero-cta{
-  display:flex;
-  flex-direction:column;
-  align-items:flex-start;
-  gap:10px;
-}
-
-.faq{
-  display:grid;
-  gap:14px;
-  max-width:860px;
-  margin:0 auto;
-}
-
-.faq-item{
-  padding:18px 20px;
-}
-
-.faq-item summary{
-  cursor:pointer;
-  font-family:"Manrope", system-ui, sans-serif;
-  font-weight:800;
-}
-
-.faq-item p{
-  margin-top:12px;
-}
-
-@media (max-width: 960px){
-  .pricing-simple{
-    grid-template-columns:1fr;
-  }
-}
-
-@media (max-width: 720px){
-  .price-card,
-  .simple-box,
-  .faq-item{
-    padding:24px;
+@media (max-width: 560px){
+  .price-card .badge{
+    position:static;
+    width:max-content;
+    margin-bottom:2px;
   }
 }
